@@ -1,0 +1,102 @@
+body{
+    
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+      
+      color: #f3f3f3;     
+      font-family: 'Poppins', sans-serif;
+      
+      
+}
+h1 {
+    margin-left: 5em ;
+}
+p{
+    margin-left: 10em ; 
+    margin-top: -0.9em;
+}
+form{
+    background-color: #1b1b32;
+    padding: 20px;
+    
+}
+
+label , select , textarea{
+    display: block;
+    
+    
+}
+label:has(input[type="checkbox"]) , label:has(input[type="radio"]){
+    margin-top: auto ;
+    margin-bottom: 0.5em ;  
+    
+}
+
+
+
+
+input[type="checkbox"] , input[type="radio"]{
+    vertical-align: middle;
+}
+
+
+input[type="text"] , input[type="email"] , input[type="number"]{
+    width: 90%;
+    margin-left: 2em ;  
+    font-size: 1.6vw;
+
+}
+label{
+    margin-top: 1.5em ;
+    margin-left: 2em;
+    margin-bottom: 12px;
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+    
+    
+}
+
+
+
+select{
+    width: 20%;
+    margin: 1em 0 0 0  ; 
+}
+
+
+#container{
+    
+    width: 50em ; 
+    margin-left: auto;
+    margin-right: auto ;
+    
+    
+}
+textarea{
+    margin-bottom: 2em;
+    margin-left: 2em ;
+
+}
+
+#submit{
+    height: 3vw;
+    width: 50%;
+    margin-left: 15vw ; 
+    background-color: #37af65 ; 
+    color: white ; 
+}
+
+#dropdown{
+    margin-left: 3em ;
+}
+
+
+
+
+
+
